@@ -1,3 +1,21 @@
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 :root {
     --primary-text-color: #434455;
     --toptitle-text-color: #2e2f42;
@@ -10,13 +28,18 @@ body {
     background-color: var(--title-text-color);
     letter-spacing: 0.02em;
     font-size: 16px;
-    width: 1440px;
-    height: 2590px;
+    margin: 0;
 }
 
 .list {
     list-style: none;
     display: inline-flex;
+}
+
+.link {
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -40,9 +63,20 @@ body {
     color: var(--primary-text-color);
 }
 
+.box {
+    display: inline-block;
+    width: 1440px;
+    height: 72px;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    outline: 2px solid green;
+}
+
 .header {
     display: inline-flex;
-    height: 72px;
+    align-items: center;
 }
 
 .header-logo {
@@ -64,16 +98,9 @@ body {
     color: var(--accent-text-color);
 }
 
-.header-item {
-    padding: 24px 40px 24px 76px;
-}
-
 .header-link {
-    text-decoration: none;
     color: var(--toptitle-text-color);
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .contacts-address {
@@ -90,10 +117,7 @@ body {
 }
 
 .contacts-link {
-    text-decoration: none;
     color: var(--primary-text-color);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .hero {
