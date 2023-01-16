@@ -14,6 +14,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 :root {
@@ -327,11 +329,6 @@ body {
 .card {
   border: 1px solid #e7e9fc;
   padding-bottom: 32px;
-}
-
-.project-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .project-title {
