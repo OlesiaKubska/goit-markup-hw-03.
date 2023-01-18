@@ -123,16 +123,11 @@ body {
 
 .contacts-address {
   font-style: normal;
-  display: flex;
 }
 
 .contacts-list :hover,
 .contacts-list :focus {
   color: var(--accent-text-color);
-}
-
-.contacts-item {
-  display: flex;
 }
 
 .contacts-item:not(:last-child) {
@@ -150,7 +145,6 @@ body {
 
 .hero-title {
   max-width: 500px;
-  padding-bottom: 48px;
   margin: auto;
   font-size: 56px;
   line-height: 1.07;
@@ -168,7 +162,7 @@ body {
   background-color: var(--accent-text-color);
   border: none;
   border-radius: 4px;
-  margin: auto;
+  margin-top: 48px;
   padding: 16px 32px;
 }
 
@@ -292,7 +286,7 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 
 .project-item {
