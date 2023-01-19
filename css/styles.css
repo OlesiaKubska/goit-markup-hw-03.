@@ -141,6 +141,7 @@ body {
 .hero {
   background-color: var(--toptitle-text-color);
   text-align: center;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -214,6 +215,8 @@ body {
   padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--title-text-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item:not(:last-child) {
@@ -247,6 +250,10 @@ body {
   color: #e7e9fc;
   margin-top: 8px;
   max-width: 264px;
+}
+
+.filters {
+  padding-top: 96px;
 }
 
 .filters-list {
